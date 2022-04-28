@@ -20,7 +20,6 @@ const (
 )
 
 func main() {
-	fmt.Println("hogehoge")
 	var urls []*Url
 	byte, err := ioutil.ReadFile("url.csv")
 	log.Println(byte)
